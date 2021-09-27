@@ -27,7 +27,7 @@ console.log(sisaGaji)
 const oneInString = "1";
 const oneInNumber = 1;
 const isSame = true;
-if (oneInString == oneInNumber){
+if (oneInString === oneInNumber){
     console.log(isSame)
 } else{
     console.log(!isSame)
